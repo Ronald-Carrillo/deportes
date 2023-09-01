@@ -1,0 +1,87 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h2{
+            color: #267a1a;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 51px;
+            border-radius: 5px;
+            box-shadow: 20px 20px rgb(37, 156, 53);
+            width: 322px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            
+                outline: none;
+                display: block;
+                background: rgba(189, 187, 187, 0.6);
+                width: 100%;
+                border: 0;
+                border-radius: 4px;
+                box-sizing: border-box;
+                padding: 12px 20px;
+                color: gray;
+                font-family: inherit;
+                font-size: inherit;
+                font-weight: semibold;
+                line-height: inherit;
+                transition: 0.3s ease;
+        }
+
+        input[type="submit"] {
+            outline: none;
+      background-color: #358d29;
+      width: 100%;
+      border: 0;
+      border-radius: 4px;
+      padding: 12px 20px;
+      color: white;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: semibold;
+      line-height: inherit;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: .5s;
+        }
+
+        label {
+            display: block;
+            margin: 0 0 10px;
+            color: gray;
+            font-size: 12px;
+            font-weight: semibold;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: .2em;
+        }
+        input[type="submit"]:hover {
+            background-color: #267a1a;
+            transform: scale(1.1);
+        }
+        @media (min-width: 576px){
+        .card-columns {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            -webkit-column-gap: 1.25rem;
+            -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+            orphans: 1;
+            widows: 2;
+        
+        }
+   
+    }
